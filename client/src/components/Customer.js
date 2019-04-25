@@ -8,11 +8,11 @@ class Customer extends React.Component {
         return(
         <TableRow>
 <TableCell>{this.props.id}</TableCell>
-<TableCell><img src={this.props.image} alt="profile"/></TableCell>
-<TableCell>{this.props.name}</TableCell>
-<TableCell>{this.props.birthday}</TableCell>     
-<TableCell>{this.props.gender}</TableCell>     
-<TableCell>{this.props.job}</TableCell>     
+<TableCell>{this.props.ondo}</TableCell>
+<TableCell>{this.props.sepdo}</TableCell>
+<TableCell>{this.props.hontak}</TableCell>     
+<TableCell>{this.props.toyang}</TableCell>     
+<TableCell>{this.props.pump}</TableCell>     
         </TableRow>
         )
       
